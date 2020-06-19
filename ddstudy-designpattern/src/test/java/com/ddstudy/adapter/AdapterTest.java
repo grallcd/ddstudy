@@ -12,7 +12,7 @@ public class AdapterTest {
 
     @Test
     public void testAdapter(){
-        IOSConnector iosConnector = new IOSAdapter(new Connector());
-        iosConnector.chargingForIOS();
+        IOSConnector connector = new Adapter(new TypeCConnector());
+        connector.chargingForIOS();
     }
 }
