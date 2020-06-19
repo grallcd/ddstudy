@@ -16,7 +16,7 @@ class ObserverTest {
         Email email = new Email();
 
         Observer studentA = new StudentA(email);
-        Observer studentB = new StudentA(email);
+        Observer studentB = new StudentB(email);
 
         email.newEmail();
 
