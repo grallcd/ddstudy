@@ -1,18 +1,18 @@
 package com.ddstudy.adapter;
 
+import org.junit.jupiter.api.Test;
+
 /**
- * @Classname Demo
+ * @Classname AdapterTest
  * @Description TODO
  * @Date 2020/6/19
  * @Author Grain Rain
  */
-public class Demo {
+public class AdapterTest {
 
-    public static void main(String[] args) {
-
+    @Test
+    public void testAdapter(){
         IOSConnector iosConnector = new IOSAdapter(new Connector());
-
         iosConnector.chargingForIOS();
-
     }
 }
