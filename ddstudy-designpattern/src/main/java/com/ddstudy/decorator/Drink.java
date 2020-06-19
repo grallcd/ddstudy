@@ -1,5 +1,5 @@
 package com.ddstudy.decorator;
 
-public interface Drinks {
+public interface Drink {
     String composition();
 }

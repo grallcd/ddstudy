@@ -2,14 +2,20 @@ package com.ddstudy.decorator;
 
 /**
  * @Classname Ingredients
- * @Description TODO
+ * @Description 抽象的装饰对象：配料
  * @Date 2020/6/18
  * @Author Grain Rain
  */
-public abstract class Ingredients implements Drinks{
+public abstract class Ingredients implements Drink {
+
+    Drink drink;
+
+    public Ingredients(Drink drink) {
+        this.drink = drink;
+    }
 
     @Override
     public String composition() {
-        return null;
+        return drink.composition();
     }
 }
