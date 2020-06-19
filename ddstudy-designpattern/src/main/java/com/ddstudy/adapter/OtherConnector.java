@@ -6,6 +6,6 @@ package com.ddstudy.adapter;
  * @Date 2020/6/19
  * @Author Grain Rain
  */
-public interface AndroidConnector {
-    void chargingForAndroid();
+public interface OtherConnector {
+    void charging();
 }

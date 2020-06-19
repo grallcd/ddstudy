@@ -1,4 +1,4 @@
-package com.ddstudy.factory;
+package com.ddstudy.simplefactory;
 
 /**
  * @Classname Banana

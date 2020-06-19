@@ -1,15 +1,14 @@
 package com.ddstudy.adapter;
 
 /**
- * @Classname HuaWei
+ * @Classname AndroidConnection
  * @Description TODO
  * @Date 2020/6/19
  * @Author Grain Rain
  */
-public class Connector implements AndroidConnector {
-
+public class AndroidConnection implements OtherConnector {
     @Override
-    public void chargingForAndroid() {
+    public void charging() {
         System.out.println("Charging for Android");
     }
 }
