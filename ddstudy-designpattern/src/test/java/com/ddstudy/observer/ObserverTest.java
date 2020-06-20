@@ -18,7 +18,13 @@ class ObserverTest {
         Observer studentA = new StudentA(email);
         Observer studentB = new StudentB(email);
 
+        //新邮件，自动通知相关订阅者
+        email.newEmail();
+
+        Observer studentC = new StudentC(email);
+        email.detach(studentA);
         email.newEmail();
 
     }
+
 }
