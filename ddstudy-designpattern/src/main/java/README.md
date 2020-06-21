@@ -31,6 +31,8 @@ public class MultiplyOperation implements Operation {
 
 ## 工厂模式（Factory Pattern）
 
+![工厂模式](https://github.com/GRain-long/ddstudy/blob/dev/ddstudy-designpattern/src/main/resources/image/factory.png)
+
 &emsp;&emsp;工厂模式属于创建型模式的一种，简单来说，就是将创建对象的过程封装在一个工厂里，用户无需知道该对象具体是如何创建的，当需要时，只要从工厂里取就行。  
 
 &emsp;&emsp;此例中，用户如果要用一个特定种类的计算器，直接利用factory的静态方法创建就行，此处用了内部枚举，还有一种形式是用户输入String，内部再选择的方式。
@@ -70,6 +72,8 @@ public class Client{
 
 ## 策略模式（Strategy Pattern）
 
+![策略模式](https://github.com/GRain-long/ddstudy/blob/dev/ddstudy-designpattern/src/main/resources/image/strategy.png)
+
 &emsp;&emsp;策略模式：定义一系列的算法。并创建一个随各种策略改变而改变的context对象，策略改变context，属于行为型模式的一种。
 
 
@@ -106,6 +110,8 @@ public class Client{
 
 
 ## 状态模式（State Pattern）
+
+![状态模式](https://github.com/GRain-long/ddstudy/blob/dev/ddstudy-designpattern/src/main/resources/image/state.png)
 
 &emsp;&emsp;状态模式：类的行为是基于他的状态改变的，该模式属于行为型模式的一种。  
 
