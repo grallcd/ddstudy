@@ -1,7 +1,5 @@
 ## 设计模式
 
-test
-
 ### 简单工厂模式、工厂方法模式、抽象工厂模式(Factory Pattern)
 
 ### [适配器模式(Adapter Pattern)]()
@@ -23,6 +21,5 @@ test
 ### [模板方法模式(Template Pattern)]()
 
 
-test
 
 
