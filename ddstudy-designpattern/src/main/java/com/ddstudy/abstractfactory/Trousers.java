@@ -1,7 +1,6 @@
 package com.ddstudy.abstractfactory;
 
-public interface Style {
+public interface Trousers {
 
     void type();
-
 }

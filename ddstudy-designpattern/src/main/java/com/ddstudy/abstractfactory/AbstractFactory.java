@@ -2,8 +2,8 @@ package com.ddstudy.abstractfactory;
 
 public interface AbstractFactory {
 
-    BusinessSuit businessFactory();
+    Clothes createClothes();
 
-    CasualSuit casualFactory();
+    Trousers createTrousers();
 
 }
