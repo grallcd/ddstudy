@@ -1,6 +1,8 @@
 ## 设计模式
 
-### 简单工厂模式、工厂方法模式、抽象工厂模式(Factory Pattern)
+### [简单工厂模式(Simple Factory)](https://github.com/GRain-long/ddstudy/blob/dev/ddstudy-designpattern/src/main/java/com/ddstudy/simplefactory/README.md)
+
+### 工厂方法模式、抽象工厂模式(Factory Pattern)
 
 ### [适配器模式(Adapter Pattern)]()
 
