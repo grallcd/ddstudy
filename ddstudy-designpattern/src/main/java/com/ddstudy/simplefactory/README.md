@@ -1,6 +1,6 @@
 ## 简单工厂模式
 
-![简单工厂模式](https://github.com/GRain-long/ddstudy/tree/dev/ddstudy-designpattern/src/main/resources/image/simpleFactory.png)
+![简单工厂模式](https://github.com/GRain-long/ddstudy/blob/dev/ddstudy-designpattern/src/main/resources/image/simpleFactory.png)
 
 ### 简介
 &emsp;&emsp;简单工厂模式属于创建型模式的一种，主要是讲创建对象的过程封装起来，用户只需要知道产品名字即可调用工厂生产对象。  
