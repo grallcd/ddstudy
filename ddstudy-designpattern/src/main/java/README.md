@@ -1,12 +1,11 @@
 
-@[toc](工厂、策略、状态模式解析)
-
 
 ## 简介
 
-&emsp;&emsp;在学习设计模式的过程中，一般都要先看UML图，了解各个类之间的关系，清楚整个结构，这样学起来事半功倍。
-其中，工厂模式、策略模式及状态模式的UML图都差不多，学习时很容易混淆。但实际应用过程中还是有区别的，故将其中区别总结出来以供学习。
-  
+&emsp;&emsp;在学习设计模式的过程中，一般都要先看UML图，了解各个类之间的关系，清楚整个结构，这样学起来事半功倍。  
+
+&emsp;&emsp;其中，工厂模式、策略模式及状态模式的UML图都差不多，学习时很容易混淆。但实际应用过程中还是有区别的，故将其中区别总结出来以供学习。  
+
 &emsp;&emsp;首先,为了帮助理解，三种模式都取同一个例子，以计算器为例，分为加法和乘法，以下为公共代码。
 
 ```java
@@ -30,7 +29,7 @@ public class MultiplyOperation implements Operation {
 
 ## 工厂模式（Factory Pattern）
 
-![工厂模式](https://github.com/GRain-long/ddstudy/tree/dev/ddstudy-designpattern/src/main/resources/image/factory.png)
+![工厂模式](https://github.com/GRain-long/ddstudy/blob/dev/ddstudy-designpattern/src/main/resources/image/factory.png)
 
 &emsp;&emsp;工厂模式属于创建型模式的一种，简单来说，就是将创建对象的过程封装在一个工厂里，用户无需知道该对象具体是如何创建的，当需要时，只要从工厂里取就行。  
 
@@ -71,6 +70,8 @@ public class Client{
 
 ## 策略模式（Strategy Pattern）
 
+![策略模式](https://github.com/GRain-long/ddstudy/blob/dev/ddstudy-designpattern/src/main/resources/image/strategy.png)
+
 &emsp;&emsp;策略模式：定义一系列的算法。并创建一个随各种策略改变而改变的context对象，策略改变context，属于行为型模式的一种。
 
 
@@ -107,6 +108,8 @@ public class Client{
 
 
 ## 状态模式（State Pattern）
+
+![状态模式](https://github.com/GRain-long/ddstudy/blob/dev/ddstudy-designpattern/src/main/resources/image/state.png)
 
 &emsp;&emsp;状态模式：类的行为是基于他的状态改变的，该模式属于行为型模式的一种。  
 
