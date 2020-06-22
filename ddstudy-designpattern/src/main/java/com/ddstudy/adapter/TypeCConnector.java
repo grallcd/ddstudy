@@ -1,7 +1,7 @@
 package com.ddstudy.adapter;
 
 /**
- * @Classname HuaWei
+ * @Classname TypeCConnector
  * @Description
  * @Date 2020/6/19
  * @Author Grain Rain
