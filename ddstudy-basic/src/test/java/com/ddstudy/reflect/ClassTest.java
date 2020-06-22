@@ -4,6 +4,8 @@ import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 
+import java.lang.annotation.Annotation;
+import java.lang.reflect.Constructor;
 import java.lang.reflect.Field;
 import java.lang.reflect.Method;
 
@@ -99,13 +101,25 @@ public class ClassTest {
 
         //获取类对应的注解
         Value declaredAnnotation = clazz.getDeclaredAnnotation(Value.class);
-
         Value annotation = clazz.getAnnotation(Value.class);
+
+        Annotation[] annotations = clazz.getAnnotations();
+        Annotation[] declaredAnnotations = clazz.getDeclaredAnnotations();
+
 
     }
 
     @Test
     public void testGetConstructor() {
+
+        //获取该类所有public构造器
+        Constructor<?>[] constructors = clazz.getConstructors();
+
+        //获取该类所有构造器
+        Constructor<?>[] declaredConstructors = clazz.getDeclaredConstructors();
+
+
+
 
     }
 }
