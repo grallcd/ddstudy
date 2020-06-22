@@ -6,7 +6,7 @@
 
 ### [抽象工厂模式(AbstractFactory Pattern)](https://github.com/GRain-long/ddstudy/blob/dev/ddstudy-designpattern/src/main/java/com/ddstudy/abstractfactory/README.md)
 
-### 适配器模式(Adapter Pattern)
+### [适配器模式(Adapter Pattern)](https://github.com/GRain-long/ddstudy/blob/dev/ddstudy-designpattern/src/main/java/com/ddstudy/adapter/README.md)
 
 ### 装饰着模式(Decorator Pattern)
 
