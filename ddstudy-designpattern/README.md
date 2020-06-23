@@ -80,7 +80,7 @@
 
 ### 代理模式(Proxy Pattern)
 
-### 单例模式(Singleton Pattern)
+### [单例模式(Singleton Pattern)](https://github.com/GRain-long/ddstudy/blob/dev/ddstudy-designpattern/src/main/java/com/ddstudy/singleton/README.md)
 
 ### 状态模式(State Pattern)
 
