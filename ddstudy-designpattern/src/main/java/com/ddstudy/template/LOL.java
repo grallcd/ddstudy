@@ -8,17 +8,17 @@ package com.ddstudy.template;
  */
 public class LOL extends Game{
     @Override
-    void start() {
+    protected void start() {
         System.out.println("Choose a hero ");
     }
 
     @Override
-    void continued() {
+    protected void continued() {
         System.out.println("Developing regiment and pushing tower");
     }
 
     @Override
-    void end() {
+    protected void end() {
         System.out.println("Victory");
     }
 }

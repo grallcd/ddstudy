@@ -9,13 +9,13 @@ package com.ddstudy.template;
 public abstract class Game {
 
     //开始游戏
-    abstract void start();
+    protected abstract void start();
 
     //游戏进行中
-    abstract void continued();
+    protected abstract void continued();
 
     //结束游戏
-    abstract void end();
+    protected abstract void end();
 
     //玩游戏的整个过程
     final void playGame() {
