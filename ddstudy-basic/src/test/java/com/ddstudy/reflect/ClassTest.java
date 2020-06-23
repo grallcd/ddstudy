@@ -110,7 +110,7 @@ public class ClassTest {
     }
 
     @Test
-    public void testGetConstructor() {
+    public void testGetConstructor() throws NoSuchMethodException {
 
         //获取该类所有public构造器
         Constructor<?>[] constructors = clazz.getConstructors();
@@ -118,8 +118,12 @@ public class ClassTest {
         //获取该类所有构造器
         Constructor<?>[] declaredConstructors = clazz.getDeclaredConstructors();
 
+        //获取指定类的public构造方法
+        Constructor<Coder> constructor = clazz.getConstructor(Coder.class);
 
-
+        //获取指定类的所有构造方法
+        Constructor<Coder> declaredConstructor = clazz.getDeclaredConstructor(Coder.class);
 
     }
+
 }

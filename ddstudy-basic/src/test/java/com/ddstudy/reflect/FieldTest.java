@@ -26,10 +26,6 @@ public class FieldTest {
     @Test
     public void testGetField() throws NoSuchFieldException {
 
-
-
-
-
         //获取字段名称
         Field field = clazz.getField("description");
         Field declaredField = clazz.getDeclaredField("age");
