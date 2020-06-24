@@ -68,11 +68,11 @@
 
 ### [工厂方法模式(Factory Method Pattern)](https://github.com/GRain-long/ddstudy/blob/dev/ddstudy-designpattern/src/main/java/com/ddstudy/factorymethod/README.md)
 
-### [抽象工厂模式(AbstractFactory Pattern)](https://github.com/GRain-long/ddstudy/blob/dev/ddstudy-designpattern/src/main/java/com/ddstudy/abstractfactory/README.md)
+### [抽象工厂模式(Abstract Factory Pattern)](https://github.com/GRain-long/ddstudy/blob/dev/ddstudy-designpattern/src/main/java/com/ddstudy/abstractfactory/README.md)
 
 ### [适配器模式(Adapter Pattern)](https://github.com/GRain-long/ddstudy/blob/dev/ddstudy-designpattern/src/main/java/com/ddstudy/adapter/README.md)
 
-### 装饰者模式(Decorator Pattern)
+### [装饰模式(Decorator Pattern)](https://github.com/GRain-long/ddstudy/blob/dev/ddstudy-designpattern/src/main/java/com/ddstudy/decorator/README.md)
 
 ### 外观模式(Facade Pattern)
 
