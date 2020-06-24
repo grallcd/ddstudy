@@ -84,8 +84,8 @@
 
 ### 状态模式(State Pattern)
 
-### 策略模式(Strategy Pattern)
+### [策略模式(Strategy Pattern)](https://github.com/GRain-long/ddstudy/blob/dev/ddstudy-designpattern/src/main/java/com/ddstudy/strategy/README.md)
 
-### 模板方法模式(Template Pattern)
+### [模板方法模式(Template Pattern)](https://github.com/GRain-long/ddstudy/blob/dev/ddstudy-designpattern/src/main/java/com/ddstudy/template/README.md)
 
 
