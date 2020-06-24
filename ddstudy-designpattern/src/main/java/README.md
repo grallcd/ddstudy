@@ -70,7 +70,7 @@ public class Client{
 
 ## 策略模式（Strategy Pattern）
 
-![策略模式](https://github.com/GRain-long/ddstudy/blob/dev/ddstudy-designpattern/src/main/resources/image/strategy.png)
+![策略模式](https://github.com/GRain-long/ddstudy/blob/dev/ddstudy-designpattern/src/main/resources/image/strategyDemo.png)
 
 &emsp;&emsp;策略模式：定义一系列的算法。并创建一个随各种策略改变而改变的context对象，策略改变context，属于行为型模式的一种。
 

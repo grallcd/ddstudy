@@ -13,7 +13,7 @@ public class StrategyTest {
     Context context;
 
     @Test
-    void testStrategy(){
+    void testStrategy() {
 
         context = new Context(new Alipay());
         context.shopping();
@@ -23,5 +23,16 @@ public class StrategyTest {
 
         context = new Context(new WxPay());
         context.shopping();
+    }
+
+    @Test
+    void testStrategy2() {
+
+        PayType.ALIPAY.pay();
+
+        PayType.WXPAY.pay();
+
+        PayType.CASHPAY.pay();
+
     }
 }
