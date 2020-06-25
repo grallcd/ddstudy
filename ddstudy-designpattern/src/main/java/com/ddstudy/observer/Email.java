@@ -3,7 +3,6 @@ package com.ddstudy.observer;
 import java.util.ArrayList;
 import java.util.List;
 
-
 /**
  * @Classname Email
  * @Description 观察者模式：具体主题对象

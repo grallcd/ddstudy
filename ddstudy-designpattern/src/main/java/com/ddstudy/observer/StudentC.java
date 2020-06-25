@@ -1,13 +1,14 @@
 package com.ddstudy.observer;
 
 /**
- * @Classname ObC
- * @Description TODO
+ * @Classname StudentC
+ * @Description 观察者C
  * @Date 2020/6/20
  * @Author Grain Rain
  */
 public class StudentC implements Observer {
-    Subject subject;
+
+    private Subject subject;
 
     public StudentC(Subject subject) {
         this.subject = subject;

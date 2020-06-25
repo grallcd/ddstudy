@@ -8,7 +8,7 @@ package com.ddstudy.observer;
  */
 public class StudentB implements Observer {
 
-    Subject subject;
+    private Subject subject;
 
     public StudentB(Subject subject) {
         this.subject = subject;
