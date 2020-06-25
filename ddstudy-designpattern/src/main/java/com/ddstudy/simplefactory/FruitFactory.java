@@ -8,26 +8,8 @@ package com.ddstudy.simplefactory;
  */
 public class FruitFactory {
 
-    public static Fruit getFruit(Type type) {
-
-        switch (type) {
-
-            case APPLE:
-                return new Apple();
-
-            case LEMON:
-                return new Lemon();
-
-            case BANANA:
-                return new Banana();
-            default:
-                return null;
-        }
-
-    }
-
-    enum Type {
-        APPLE, BANANA, LEMON
+    public static Fruit getFruit(FruitType type) {
+        return type.get();
     }
 
 }
