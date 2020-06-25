@@ -10,10 +10,6 @@ public class OpenState implements State {
 
     private Door door;
 
-    public OpenState(Door door) {
-        this.door = door;
-    }
-
     @Override
     public void open() {
         System.out.println("The door is opened");
@@ -22,6 +18,6 @@ public class OpenState implements State {
     @Override
     public void close() {
         System.out.println("Close the door");
-        door.setState(door.getCLOSED_STATE());
+        door.setState(Door.CLOSED_STATE);
     }
 }

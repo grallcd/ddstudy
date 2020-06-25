@@ -11,9 +11,9 @@ package com.ddstudy.state;
  */
 public class Door {
 
-    private final ClosedState CLOSED_STATE = new ClosedState(this);
+    public static final ClosedState CLOSED_STATE = new ClosedState();
 
-    private final OpenState OPEN_STATE = new OpenState(this);
+    public static final OpenState OPEN_STATE = new OpenState();
 
     //初始处于关着的状态
     private State state = CLOSED_STATE;
@@ -24,14 +24,6 @@ public class Door {
 
     public void close() {
         state.close();
-    }
-
-    public State getCLOSED_STATE() {
-        return CLOSED_STATE;
-    }
-
-    public State getOPEN_STATE() {
-        return OPEN_STATE;
     }
 
     void setState(State state) {

@@ -109,7 +109,7 @@ public class Client{
 
 ## 状态模式（State Pattern）
 
-![状态模式](https://github.com/GRain-long/ddstudy/blob/dev/ddstudy-designpattern/src/main/resources/image/state.png)
+![状态模式](https://github.com/GRain-long/ddstudy/blob/dev/ddstudy-designpattern/src/main/resources/image/stateDemo.png)
 
 &emsp;&emsp;状态模式：类的行为是基于他的状态改变的，该模式属于行为型模式的一种。  
 
