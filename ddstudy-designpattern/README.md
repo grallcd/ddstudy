@@ -74,18 +74,50 @@
 
 ### [装饰模式(Decorator Pattern)](https://github.com/GRain-long/ddstudy/blob/dev/ddstudy-designpattern/src/main/java/com/ddstudy/decorator/README.md)
 
-### 外观模式(Facade Pattern)
+### [外观模式(Facade Pattern)](https://github.com/GRain-long/ddstudy/blob/dev/ddstudy-designpattern/src/main/java/com/ddstudy/facade/README.md)
 
-### 观察者模式(Observer Pattern)
+### [观察者模式(Observer Pattern)](https://github.com/GRain-long/ddstudy/blob/dev/ddstudy-designpattern/src/main/java/com/ddstudy/observer/README.md)
 
 ### 代理模式(Proxy Pattern)
 
 ### [单例模式(Singleton Pattern)](https://github.com/GRain-long/ddstudy/blob/dev/ddstudy-designpattern/src/main/java/com/ddstudy/singleton/README.md)
 
-### 状态模式(State Pattern)
+### [状态模式(State Pattern)](https://github.com/GRain-long/ddstudy/blob/dev/ddstudy-designpattern/src/main/java/com/ddstudy/state/README.md)
 
 ### [策略模式(Strategy Pattern)](https://github.com/GRain-long/ddstudy/blob/dev/ddstudy-designpattern/src/main/java/com/ddstudy/strategy/README.md)
 
 ### [模板方法模式(Template Pattern)](https://github.com/GRain-long/ddstudy/blob/dev/ddstudy-designpattern/src/main/java/com/ddstudy/template/README.md)
 
 
+---------------------------
+
+### 总结
+&emsp;&emsp;设计模式主要分为3大类型：创建型、结构型、行为型。其中：
+
+&emsp;&emsp;创建型包括：工厂方法模式、抽象工厂模式、单例模式、建造者模式、原型模式共5种。
+
+&emsp;&emsp;结构型包括：适配器模式、装饰模式、代理模式、外观模式、桥接模式、组合模式、享元模式共7种。
+
+&emsp;&emsp;行为型包括：策略模式、模板方法模式、观察者模式、状态模式、迭代模式、命令模式、责任链模式、备忘录模式、访问者模式、中介者模式、解释器模式共11种。
+
+另：  
+- 创建型模式涉及到将对象实例化，这类模式都提供一个方法，将客户从所需要实例化的对象中解耦。
+
+- 结构型模式可以让你把类或对象组合到更大的结构中。
+
+- 只要是行为型模式，都涉及到类和对象如何交互及分配职责。
+  
+&emsp;&emsp;我们一般思考设计时，首先想到的应该是选用哪种类型较合适，再选择具体的模式。  
+&emsp;&emsp;总的说来，**设计模式只是一种工具**，通过利用这种工具，有助于让我们的设计简单化且更有弹性，最终，还是应该根据实际情况出发。  
+
+&emsp;&emsp;我们在设计时应该注意设计本身，而不是在模式上，其他技术也同理，即**不要为了使用而使用**。
+
+
+### 参考
+
+- 《Head First 设计模式》
+- 《设计模式之禅(第二版)》
+
+
+
+ 

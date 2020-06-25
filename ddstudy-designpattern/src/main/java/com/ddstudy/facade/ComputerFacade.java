@@ -10,9 +10,9 @@ package com.ddstudy.facade;
  */
 public class ComputerFacade {
 
-    Disk disk;
-    CPU cpu;
-    Memory memory;
+    private Disk disk;
+    private CPU cpu;
+    private Memory memory;
 
     public ComputerFacade() {
         this.disk = new Disk();
