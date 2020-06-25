@@ -14,9 +14,9 @@ public class FactoryTest {
     @Test
     void testFactory() {
 
-        Fruit apple = FruitFactory.getFruit(FruitType.APPLE);
-        Fruit banana = FruitFactory.getFruit(FruitType.BANANA);
-        Fruit lemon = FruitFactory.getFruit(FruitType.LEMON);
+        Fruit apple = FruitFactory.getFruit(FruitTypeEnum.APPLE);
+        Fruit banana = FruitFactory.getFruit(FruitTypeEnum.BANANA);
+        Fruit lemon = FruitFactory.getFruit(FruitTypeEnum.LEMON);
 
         apple.description();
         banana.description();
@@ -26,7 +26,7 @@ public class FactoryTest {
     @Test
     void testFruitType(){
 
-        FruitType apple = FruitType.APPLE;
+        FruitTypeEnum apple = FruitTypeEnum.APPLE;
         String name = apple.name();
         Assertions.assertEquals("APPLE",name);
 

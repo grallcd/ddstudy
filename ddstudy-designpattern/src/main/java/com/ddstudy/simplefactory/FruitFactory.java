@@ -8,7 +8,7 @@ package com.ddstudy.simplefactory;
  */
 public class FruitFactory {
 
-    public static Fruit getFruit(FruitType type) {
+    public static Fruit getFruit(FruitTypeEnum type) {
         return type.get();
     }
 

@@ -1,6 +1,6 @@
 package com.ddstudy.simplefactory;
 
-public enum FruitType {
+public enum FruitTypeEnum {
 
     APPLE {
         @Override
