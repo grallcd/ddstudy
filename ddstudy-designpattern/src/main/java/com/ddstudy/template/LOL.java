@@ -6,7 +6,7 @@ package com.ddstudy.template;
  * @Date 2020/6/19
  * @Author Grain Rain
  */
-public class LOL extends Game{
+public class LOL extends AbstractGame{
     @Override
     protected void start() {
         System.out.println("Choose a hero ");

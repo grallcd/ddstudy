@@ -6,7 +6,7 @@ package com.ddstudy.template;
  * @Date 2020/6/19
  * @Author Grain Rain
  */
-public abstract class Game {
+public abstract class AbstractGame {
 
     //开始游戏
     protected abstract void start();

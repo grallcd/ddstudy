@@ -8,9 +8,9 @@ package com.ddstudy.strategy;
  */
 public class Context {
 
-    private PayMethod method;
+    private BasePayMethod method;
 
-    public Context(PayMethod method) {
+    public Context(BasePayMethod method) {
         this.method = method;
     }
 

@@ -6,11 +6,11 @@ package com.ddstudy.decorator;
  * @Date 2020/6/18
  * @Author Grain Rain
  */
-public abstract class Ingredients implements Drink {
+public abstract class BaseIngredients implements Drink {
 
     Drink drink;
 
-    public Ingredients(Drink drink) {
+    public BaseIngredients(Drink drink) {
         this.drink = drink;
     }
 

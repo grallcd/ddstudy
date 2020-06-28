@@ -6,7 +6,7 @@ package com.ddstudy.decorator;
  * @Date 2020/6/18
  * @Author Grain Rain
  */
-public class Pearl extends Ingredients {
+public class Pearl extends BaseIngredients {
 
 
     public Pearl(Drink drink) {

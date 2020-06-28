@@ -7,7 +7,7 @@ package com.ddstudy.decorator;
  * @Author Grain Rain
  */
 
-public class Sugar extends Ingredients {
+public class Sugar extends BaseIngredients {
 
 
     public Sugar(Drink drink) {
@@ -17,6 +17,6 @@ public class Sugar extends Ingredients {
 
     @Override
     public String composition() {
-        return drink.composition()+" + Sugar";
+        return drink.composition() + " + Sugar";
     }
 }

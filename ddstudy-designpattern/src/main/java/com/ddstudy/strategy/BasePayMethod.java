@@ -6,6 +6,6 @@ package com.ddstudy.strategy;
  * @Date 2020/6/20
  * @Author Grain Rain
  */
-public abstract class PayMethod {
+public abstract class BasePayMethod {
     abstract void pay();
 }

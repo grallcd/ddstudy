@@ -12,9 +12,9 @@ public class TemplateTest {
 
     @Test
     public void testTemplate() {
-        Game lol = new LOL();
+        AbstractGame lol = new LOL();
 
-        Game poker = new Poker();
+        AbstractGame poker = new Poker();
 
         lol.playGame();
 

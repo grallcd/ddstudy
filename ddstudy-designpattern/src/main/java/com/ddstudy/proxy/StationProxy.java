@@ -8,7 +8,7 @@ package com.ddstudy.proxy;
  */
 public class StationProxy implements Station {
 
-    private TrainStation trainStation;
+    private final TrainStation trainStation;
 
     public StationProxy() {
         this.trainStation = new TrainStation();

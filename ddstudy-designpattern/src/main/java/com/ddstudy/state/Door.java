@@ -15,7 +15,9 @@ public class Door {
 
     public static final OpenState OPEN_STATE = new OpenState();
 
-    //初始处于关着的状态
+    /**
+     * 初始状态：关闭
+     */
     private State state = CLOSED_STATE;
 
     public void on() {

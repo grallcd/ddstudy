@@ -9,13 +9,13 @@ package com.ddstudy.singleton;
 public class Singleton4 {
 
     private static class inner{
-        private static final Singleton4 instance = new Singleton4();
+        private static final Singleton4 INSTANCE = new Singleton4();
     }
 
     private Singleton4() {
     }
 
     public static Singleton4 getInstance(){
-        return inner.instance;
+        return inner.INSTANCE;
     }
 }

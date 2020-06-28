@@ -6,7 +6,7 @@ package com.ddstudy.strategy;
  * @Date 2020/6/20
  * @Author Grain Rain
  */
-public class Alipay extends PayMethod {
+public class Alipay extends BasePayMethod {
     @Override
     public void pay() {
         System.out.println("pay by Alipay");
