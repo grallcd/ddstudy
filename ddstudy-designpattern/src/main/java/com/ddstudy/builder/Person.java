@@ -10,7 +10,7 @@ public class Person {
 
     private final String name;
 
-    private final Gender gender;
+    private final GenderEnum gender;
 
     private final String description;
 
@@ -24,7 +24,7 @@ public class Person {
         return name;
     }
 
-    public Gender getGender() {
+    public GenderEnum getGender() {
         return gender;
     }
 
@@ -45,11 +45,11 @@ public class Person {
 
         private final String name;
 
-        private final Gender gender;
+        private final GenderEnum gender;
 
         private String description;
 
-        public Builder(String name, Gender gender) {
+        public Builder(String name, GenderEnum gender) {
             if (name == null || gender == null) {
                 throw new IllegalArgumentException("name or gender can not be null");
             }

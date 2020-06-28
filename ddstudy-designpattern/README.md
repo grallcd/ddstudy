@@ -63,7 +63,6 @@
 
 ---------------------------
 
-
 ### [简单工厂模式(Simple Factory)](https://github.com/GRain-long/ddstudy/blob/dev/ddstudy-designpattern/src/main/java/com/ddstudy/simplefactory/README.md)
 
 ### [工厂方法模式(Factory Method Pattern)](https://github.com/GRain-long/ddstudy/blob/dev/ddstudy-designpattern/src/main/java/com/ddstudy/factorymethod/README.md)
@@ -78,7 +77,7 @@
 
 ### [观察者模式(Observer Pattern)](https://github.com/GRain-long/ddstudy/blob/dev/ddstudy-designpattern/src/main/java/com/ddstudy/observer/README.md)
 
-### 代理模式(Proxy Pattern)
+### [代理模式(Proxy Pattern)](https://github.com/GRain-long/ddstudy/blob/dev/ddstudy-designpattern/src/main/java/com/ddstudy/proxy/README.md)
 
 ### [单例模式(Singleton Pattern)](https://github.com/GRain-long/ddstudy/blob/dev/ddstudy-designpattern/src/main/java/com/ddstudy/singleton/README.md)
 
@@ -88,6 +87,7 @@
 
 ### [模板方法模式(Template Pattern)](https://github.com/GRain-long/ddstudy/blob/dev/ddstudy-designpattern/src/main/java/com/ddstudy/template/README.md)
 
+### [建造者模式(Builder Pattern)](https://github.com/GRain-long/ddstudy/blob/dev/ddstudy-designpattern/src/main/java/com/ddstudy/builder/README.md)
 
 ---------------------------
 
@@ -117,6 +117,7 @@
 
 - 《Head First 设计模式》
 - 《设计模式之禅(第二版)》
+
 
 
 
