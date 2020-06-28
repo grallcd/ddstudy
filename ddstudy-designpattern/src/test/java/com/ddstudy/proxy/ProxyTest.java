@@ -13,28 +13,33 @@ import java.lang.reflect.Proxy;
 public class ProxyTest {
 
     @Test
-    void testProxy() {
+    void testStaticProxy() {
 
-        // 通过火车站出售车票
-        TrainStation trainStation = new TrainStation();
-        trainStation.sellTickets();
+        // 不使用代理调用方法
+        People people = new People();
+        people.sayHello();
 
-        // 通过代售处出售火车票
-        StationProxy stationProxy = new StationProxy();
-        stationProxy.sellTickets();
-
+        // 使用代理调用方法
+        PeopleProxy proxy = new PeopleProxy(people);
+        proxy.sayHello();
     }
 
     @Test
     void testDynamicProxy() {
 
-        TrainStation trainStation = new TrainStation();
+        People people = new People();
+        ProxyHandler handler = new ProxyHandler(people);
 
-        ProxyHandler proxyHandler = new ProxyHandler(trainStation);
+        HelloService helloService = (HelloService) Proxy.newProxyInstance(people.getClass().getClassLoader(), people.getClass().getInterfaces(), handler);
 
-        Station instance = (Station) Proxy.newProxyInstance(trainStation.getClass().getClassLoader(), trainStation.getClass().getInterfaces(), proxyHandler);
+        helloService.sayHello();
 
-        instance.sellTickets();
+        Person person = new Person();
+        ProxyHandler handler2 = new ProxyHandler(person);
+        ByeService byeService = (ByeService) Proxy.newProxyInstance(person.getClass().getClassLoader(), person.getClass().getInterfaces(), handler2);
+
+        byeService.sayGoodBye();
+
 
     }
 }
