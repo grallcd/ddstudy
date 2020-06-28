@@ -28,11 +28,11 @@ public class StrategyTest {
     @Test
     void testStrategy2() {
 
-        PayType.ALIPAY.pay();
+        PayTypeEnum.ALIPAY.pay();
 
-        PayType.WXPAY.pay();
+        PayTypeEnum.WXPAY.pay();
 
-        PayType.CASHPAY.pay();
+        PayTypeEnum.CASHPAY.pay();
 
     }
 }

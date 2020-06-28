@@ -1,6 +1,6 @@
 package com.ddstudy.strategy;
 
-public enum PayType {
+public enum PayTypeEnum {
 
     ALIPAY {
         @Override
