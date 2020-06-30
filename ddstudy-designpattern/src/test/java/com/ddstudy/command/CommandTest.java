@@ -13,14 +13,15 @@ public class CommandTest {
     @Test
     void testCommand() {
 
-        Client client = new Client(new TextFileExecutor());
-
+        TextFileExecutor executor = new TextFileExecutor();
+        Client client = new Client(executor);
         TextFile text = new TextFile();
 
-        client.execute(text::open);
-        client.execute(text::save);
-        client.execute(text::close);
+        executor.setTextFileCommand(text::open);
+        client.action();
 
+        executor.setTextFileCommand(text::close);
+        client.action();
     }
 
     @Test
@@ -30,8 +31,6 @@ public class CommandTest {
         TextFile textFile = new TextFile();
 
         commandExecutor.add(textFile::open);
-        commandExecutor.add(textFile::addChar);
-        commandExecutor.add(textFile::addChar);
         commandExecutor.add(textFile::save);
         commandExecutor.add(textFile::close);
 

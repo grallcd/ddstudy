@@ -2,21 +2,19 @@ package com.ddstudy.command;
 
 /**
  * @Classname Client
- * @Description 客户端角色
- * @Date 2020/6/30
+ * @Description 客户端
+ * @Date 2020/7/1
  * @Author Grain Rain
  */
 public class Client {
 
-    private final TextFileExecutor textFileExecutor;
+    private TextFileExecutor textFileExecutor;
 
     public Client(TextFileExecutor textFileExecutor) {
         this.textFileExecutor = textFileExecutor;
     }
 
-    public void execute(TextFileCommand textFileCommand) {
-        textFileExecutor.executeCommand(textFileCommand);
+    public void action(){
+        textFileExecutor.executeCommand();
     }
-
-
 }

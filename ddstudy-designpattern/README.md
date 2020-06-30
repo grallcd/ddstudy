@@ -89,6 +89,8 @@
 
 ### [建造者模式(Builder Pattern)](https://github.com/GRain-long/ddstudy/blob/dev/ddstudy-designpattern/src/main/java/com/ddstudy/builder/README.md)
 
+### [命令模式(Command Pattern)](https://github.com/GRain-long/ddstudy/blob/dev/ddstudy-designpattern/src/main/java/com/ddstudy/command/README.md)
+
 ---------------------------
 
 ### 总结

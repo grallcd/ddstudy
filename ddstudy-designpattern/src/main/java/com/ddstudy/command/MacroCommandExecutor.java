@@ -11,7 +11,7 @@ import java.util.List;
  */
 public class MacroCommandExecutor {
 
-    private static final List<TextFileCommand> commands = new ArrayList<>(5);
+    private static final List<TextFileCommand> commands = new ArrayList<>(3);
 
     public void add(TextFileCommand textFileCommand) {
         checkSize();
@@ -19,8 +19,8 @@ public class MacroCommandExecutor {
     }
 
     private void checkSize() {
-        if (MacroCommandExecutor.commands.size() >= 5) {
-            throw new UnsupportedOperationException("You can't add command more than 5 ");
+        if (MacroCommandExecutor.commands.size() >= 3) {
+            throw new UnsupportedOperationException("You can't add command more than 3 ");
         }
     }
 

@@ -16,14 +16,6 @@ public class TextFile {
         System.out.println("Save the text file ");
     }
 
-    public void addChar(){
-        System.out.println("Add a char ");
-    }
-
-    public void removeChar(){
-        System.out.println("Remove a char ");
-    }
-
     public void close(){
         System.out.println("Close the text file ");
     }
