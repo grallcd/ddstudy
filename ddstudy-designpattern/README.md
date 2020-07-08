@@ -91,6 +91,8 @@
 
 ### [命令模式(Command Pattern)](https://github.com/GRain-long/ddstudy/blob/dev/ddstudy-designpattern/src/main/java/com/ddstudy/command/README.md)
 
+### [享元模式(Flyweight Pattern)](https://github.com/GRain-long/ddstudy/blob/dev/ddstudy-designpattern/src/main/java/com/ddstudy/flyweight/README.md)
+
 ---------------------------
 
 ### 总结
