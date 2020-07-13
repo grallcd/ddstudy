@@ -20,7 +20,8 @@ public class ShapeFactory {
     public Shape getShape(ShapeType type) {
         Shape shape = shapeMap.get(type);
         if (shape == null) {
-            shapeMap.put(type, type.get());
+            shape = type.get();
+            shapeMap.put(type, shape);
         }
         return shape;
 
