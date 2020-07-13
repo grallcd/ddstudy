@@ -93,6 +93,8 @@
 
 ### [享元模式(Flyweight Pattern)](https://github.com/GRain-long/ddstudy/blob/dev/ddstudy-designpattern/src/main/java/com/ddstudy/flyweight/README.md)
 
+### [迭代器模式(Iterator Pattern)](https://github.com/GRain-long/ddstudy/blob/dev/ddstudy-designpattern/src/main/java/com/ddstudy/iterator/README.md)
+
 ---------------------------
 
 ### 总结
@@ -102,7 +104,7 @@
 
 &emsp;&emsp;结构型包括：适配器模式、装饰模式、代理模式、外观模式、桥接模式、组合模式、享元模式共7种。
 
-&emsp;&emsp;行为型包括：策略模式、模板方法模式、观察者模式、状态模式、迭代模式、命令模式、责任链模式、备忘录模式、访问者模式、中介者模式、解释器模式共11种。
+&emsp;&emsp;行为型包括：策略模式、模板方法模式、观察者模式、状态模式、迭代器模式、命令模式、责任链模式、备忘录模式、访问者模式、中介者模式、解释器模式共11种。
 
 另：  
 - 创建型模式涉及到将对象实例化，这类模式都提供一个方法，将客户从所需要实例化的对象中解耦。
