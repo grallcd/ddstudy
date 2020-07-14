@@ -95,6 +95,8 @@
 
 ### [迭代器模式(Iterator Pattern)](https://github.com/GRain-long/ddstudy/blob/dev/ddstudy-designpattern/src/main/java/com/ddstudy/iterator/README.md)
 
+### [原型模式(Prototype Pattern)](https://github.com/GRain-long/ddstudy/blob/dev/ddstudy-designpattern/src/main/java/com/ddstudy/prototype/README.md)
+
 ---------------------------
 
 ### 总结
