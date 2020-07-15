@@ -97,6 +97,8 @@
 
 ### [原型模式(Prototype Pattern)](https://github.com/GRain-long/ddstudy/blob/dev/ddstudy-designpattern/src/main/java/com/ddstudy/prototype/README.md)
 
+### [责任链模式(Chain of Responsibility Pattern)](https://github.com/GRain-long/ddstudy/blob/dev/ddstudy-designpattern/src/main/java/com/ddstudy/chain/README.md)
+
 ---------------------------
 
 ### 总结
