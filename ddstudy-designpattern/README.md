@@ -103,6 +103,8 @@
 
 ### [桥接模式(Bridge Pattern)](https://github.com/GRain-long/ddstudy/blob/dev/ddstudy-designpattern/src/main/java/com/ddstudy/bridge/README.md)
 
+### [备忘录模式(Memento Pattern)](https://github.com/GRain-long/ddstudy/blob/dev/ddstudy-designpattern/src/main/java/com/ddstudy/memento/README.md)
+
 ---------------------------
 
 ### 总结
