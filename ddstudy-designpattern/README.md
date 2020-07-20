@@ -99,6 +99,10 @@
 
 ### [责任链模式(Chain of Responsibility Pattern)](https://github.com/GRain-long/ddstudy/blob/dev/ddstudy-designpattern/src/main/java/com/ddstudy/chain/README.md)
 
+### [中介者模式(Mediator Pattern)](https://github.com/GRain-long/ddstudy/blob/dev/ddstudy-designpattern/src/main/java/com/ddstudy/mediator/README.md)
+
+### [桥接模式(Bridge Pattern)](https://github.com/GRain-long/ddstudy/blob/dev/ddstudy-designpattern/src/main/java/com/ddstudy/bridge/README.md)
+
 ---------------------------
 
 ### 总结
@@ -127,6 +131,7 @@
 
 - 《Head First 设计模式》
 - 《设计模式之禅(第二版)》
+- 《iluwatar/java-design-patterns》
 
 
 
