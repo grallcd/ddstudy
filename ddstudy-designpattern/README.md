@@ -105,6 +105,10 @@
 
 ### [备忘录模式(Memento Pattern)](https://github.com/GRain-long/ddstudy/blob/dev/ddstudy-designpattern/src/main/java/com/ddstudy/memento/README.md)
 
+### [组合模式(Composite Pattern)](https://github.com/GRain-long/ddstudy/blob/dev/ddstudy-designpattern/src/main/java/com/ddstudy/composite/README.md)
+
+### [解释器模式(Interpreter Pattern)](https://github.com/GRain-long/ddstudy/blob/dev/ddstudy-designpattern/src/main/java/com/ddstudy/interpreter/README.md)
+
 ---------------------------
 
 ### 总结
