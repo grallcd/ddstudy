@@ -11,9 +11,7 @@
     <packaging>pom</packaging>
 
     <modules>
-        <module>ddstudy-demo</module>
         <module>ddstudy-designpattern</module>
-        <module>ddstudy-basic</module>
     </modules>
 
     <properties>
@@ -21,12 +19,6 @@
     </properties>
 
     <dependencies>
-        <!--<dependency>
-            <groupId>junit</groupId>
-            <artifactId>junit</artifactId>
-            <version>${junit.version}</version>
-            <scope>test</scope>
-        </dependency>-->
 
         <!-- https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter -->
         <dependency>
@@ -37,6 +29,5 @@
         </dependency>
 
     </dependencies>
-
 
 </project>
