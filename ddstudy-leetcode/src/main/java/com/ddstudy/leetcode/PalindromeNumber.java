@@ -29,13 +29,7 @@ public class PalindromeNumber {
      * @return
      */
     public boolean isPalindrome(int x) {
-        if (x < 0) {
-            return false;
-        } else if (x < 10) {
-            return true;
-        }
-
-        if (x % 10 == 0) {
+        if (x < 0 || (x % 10 == 0 && x != 0)) {
             return false;
         }
 
@@ -51,10 +45,33 @@ public class PalindromeNumber {
         return result == init;
     }
 
+    /**
+     * 将原数的后半部分进行反转，如果和前半部分相等，则是回文数
+     * 当前半部分小于等于反转后的数字时，则表示反转的位数已经到达一半了
+     *
+     * @param x
+     * @return
+     */
+    public boolean isPalindrome2(int x) {
+        if (x < 0 || (x % 10 == 0 && x != 0)) {
+            return false;
+        }
+
+        int revertNum = 0;
+        while (x > revertNum) {
+            revertNum = revertNum * 10 + x % 10;
+            x = x / 10;
+        }
+
+        // 当数字长度为奇数时，只需将 revertNum / 10 即可
+        return x == revertNum || x == revertNum / 10;
+    }
+
+
     public static void main(String[] args) {
         PalindromeNumber palindromeNumber = new PalindromeNumber();
 
-        int num = 7;
+        int num = 0;
         boolean flag = palindromeNumber.isPalindrome(num);
         System.out.println(flag);
     }
